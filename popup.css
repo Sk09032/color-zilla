@@ -1,0 +1,37 @@
+body{
+    background: #C4DDFF;
+}
+
+.cover{
+    width: 300px;
+    text-align: center;
+}
+
+.chooseColorBtn{
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: #FFD36E;
+    cursor: pointer;
+}
+
+.colorPreview{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.colorHexcode{
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: bold;
+}
